@@ -1,0 +1,19 @@
+# Local resources and regenerable artifacts
+configs/paths.local.yaml
+data/
+artifacts/
+checkpoints/
+logs/
+wandb/
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+
+# Editor and notebook state
+.DS_Store
+.ipynb_checkpoints/
